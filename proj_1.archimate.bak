@@ -6,7 +6,6 @@
   </folder>
   <folder name="Application" id="id-4e672e5141834a289008c0ddb37da032" type="application">
     <element xsi:type="archimate:DataObject" name="Departamento" id="id-1458283d27cd437c94784c541cc9192f"/>
-    <element xsi:type="archimate:DataObject" name="Teste" id="id-a1eecdf9ad914a1885090913314cb04a"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-aafef68d86034f5091d6ced448508f10" type="technology"/>
   <folder name="Motivation" id="id-77ba8ec80b4c46ae9c7d765d6f1fa30f" type="motivation"/>
@@ -16,7 +15,6 @@
   </folder>
   <folder name="Relations" id="id-f06351c9c8264ed48da0be4178f46aae" type="relations">
     <element xsi:type="archimate:SpecializationRelationship" id="id-2f55982a710948bf8546cf94ced93f0c" source="id-ebef16021e4b4f12b93efda91d9a1868" target="id-1458283d27cd437c94784c541cc9192f"/>
-    <element xsi:type="archimate:SpecializationRelationship" id="id-1790623a553c46e38b6d78d764a132e3" source="id-1458283d27cd437c94784c541cc9192f" target="id-a1eecdf9ad914a1885090913314cb04a"/>
   </folder>
   <folder name="Views" id="id-92e75817e48d482a8abf4cbbf0346945" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-10107af2361449deb89c06622e9f95d8">
@@ -26,10 +24,6 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-0a64c2781c3340e392829c72876b6730" targetConnections="id-ea91b3581f714ef1aa0b64955f255e73" archimateElement="id-1458283d27cd437c94784c541cc9192f">
         <bounds x="408" y="228" width="97" height="121"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-fc36a80e09384c4e8d11841a87722957" source="id-0a64c2781c3340e392829c72876b6730" target="id-408afe90932d4b0f8aa443aefb548628" archimateRelationship="id-1790623a553c46e38b6d78d764a132e3"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-408afe90932d4b0f8aa443aefb548628" targetConnections="id-fc36a80e09384c4e8d11841a87722957" archimateElement="id-a1eecdf9ad914a1885090913314cb04a">
-        <bounds x="360" y="408" width="133" height="97"/>
       </child>
     </element>
   </folder>
